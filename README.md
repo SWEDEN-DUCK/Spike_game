@@ -3,7 +3,7 @@ This is a small portable game console that you can take with you wherever you go
 
 The foundation of the game was created by ultramegabombasticfuze, but I have fixed bugs and other issues. 
 
- All the pictures and files you need can be found further down. I hope everyone likes the new version I have made, and if you do please show me some respect by hitting the thumbs up so that more people can find this project. =) 
+ All the pictures and files you need can be found further down. I hope everyone likes the new version I have made, and if you do please show me some respect by giving me a star so that more people can find this project. =) 
 
  In the STL file, I have two of each part. One with holes and one without, so in case you want to fix your own without it already having holes, there is one without holes. 
 
