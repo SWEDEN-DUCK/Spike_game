@@ -10,14 +10,14 @@ The foundation of the game was created by ultramegabombasticfuze, but I have fix
  How to set up.
  
 * Arduino UNO R3
-   OLED       Arduino UNO R3
-   -----      --------------
-   GND   --->   GND
-   VCC   --->   3.3V
-   SCL   --->   A5
-   SDA   --->   A4
+OLED       Arduino UNO R3
+-----      --------------
+GND   --->   GND
+VCC   --->   3.3V
+SCL   --->   A5
+SDA   --->   A4
 
-   Button          Arduino UNO R3
+Button          Arduino UNO R3
    ------          --------------
    One side  --->  Digital pin 3
    Other side -->  GND
