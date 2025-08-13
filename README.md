@@ -64,5 +64,7 @@ The foundation of the game was created by ultramegabombasticfuze, but I have fix
 
 - Delay so you can see your score in case you accidentally skip it. 
 
-Link to ultramegabombasticfuze: $ https://projecthub.arduino.cc/ultramegabombasticfuze $ 
+Link to ultramegabombasticfuze:
+Arduino: https://projecthub.arduino.cc/ultramegabombasticfuze 
+GitHub: https://github.com/Coool-one
 
