@@ -66,5 +66,3 @@ The foundation of the game was created by ultramegabombasticfuze, but I have fix
 
 Link to ultramegabombasticfuze: $ https://projecthub.arduino.cc/ultramegabombasticfuze $ 
 
-
-ut button (Another PIN Button to GND)
