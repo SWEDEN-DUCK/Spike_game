@@ -7,7 +7,7 @@ The foundation of the game was created by ultramegabombasticfuze, but I have fix
 
  In the STL file, I have two of each part. One with holes and one without, so in case you want to fix your own without it already having holes, there is one without holes. 
 
- # How to Set Up
+ # How to Set Up (Be careful to connect everything correctly so that you don't accidentally break anything!)
 
 ## Arduino UNO R3 Wiring
 
