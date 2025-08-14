@@ -86,7 +86,7 @@ void loop() {
     }
   }
 
-  // Moving spikes med float hastighet
+  // Moving spikes 
   cactusX1 -= gameSpeed;
   cactusX2 -= gameSpeed;
 
@@ -109,8 +109,8 @@ void loop() {
   // Display
   display.clearDisplay();
   display.fillRoundRect(10, dinoY, 8, 14, 4, SSD1306_WHITE);
-  display.fillTriangle((int)cactusX1, groundY + 15, (int)cactusX1 + 5, groundY, (int)cactusX1 + 10, groundY + 15, SSD1306_WHITE);
-  display.fillTriangle((int)cactusX2, groundY + 15, (int)cactusX2 + 5, groundY, (int)cactusX2 + 10, groundY + 15, SSD1306_WHITE);
+  display.fillTriangle((int)cactusX1, groundY + 17, (int)cactusX1 + 5, groundY, (int)cactusX1 + 10, groundY + 17, SSD1306_WHITE);
+  display.fillTriangle((int)cactusX2, groundY + 17, (int)cactusX2 + 5, groundY, (int)cactusX2 + 10, groundY + 17, SSD1306_WHITE);
   display.drawLine(0, 58, 128, 58, SSD1306_WHITE);
   display.setTextSize(1);
   display.setTextColor(SSD1306_WHITE);
@@ -119,7 +119,7 @@ void loop() {
   display.print(score / 10);
   display.display();
 
-  // COLLISION DETECTION (använder int koordinater för enklare hitbox)
+  // COLLISION DETECTION 
   bool hitCactus1 = rectCollision(10, dinoY, 8, 14, (int)cactusX1, groundY, 10, 15);
   bool hitCactus2 = rectCollision(10, dinoY, 8, 14, (int)cactusX2, groundY, 10, 15);
 
