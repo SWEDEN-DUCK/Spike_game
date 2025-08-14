@@ -16,7 +16,7 @@ int velocity = 0;
 const int gravity = 2;
 const int groundY = 40;
 
-// Ändrat till float för mjukare hastighetsökning
+
 float cactusX1 = 128.0;
 float cactusX2 = 180.0;
 float gameSpeed = 3.0;
@@ -90,7 +90,7 @@ void loop() {
     }
   }
 
-  // Moving spikes med float hastighet
+  // Moving spikes 
   cactusX1 -= gameSpeed;
   cactusX2 -= gameSpeed;
 
@@ -102,9 +102,9 @@ void loop() {
     cactusX2 = 128 + random(10, 40);
   }
 
-  // Hastighetsökning med mindre steg och oftare
+  
   if (currentTime - lastSpeedIncrease > 2000) {
-    gameSpeed += 0.2; // Öka med 0.2 var 2a sekund
+    gameSpeed += 0.2; 
     lastSpeedIncrease = currentTime;
   }
 
